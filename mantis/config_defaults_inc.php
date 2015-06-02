@@ -274,7 +274,7 @@
 	 * creating new accounts, and the password will be set to blank when reset.
 	 * @global int $g_send_reset_password
 	 */
-	$g_send_reset_password	= ON;
+	$g_send_reset_password	= OFF;
 
 	/**
 	 * String used to generate the confirm_hash for the 'lost password' feature and captcha code for 'signup'
@@ -599,7 +599,7 @@
 	 * language preference.
 	 * @global string $g_default_language
 	 */
-	$g_default_language		= 'english';
+	$g_default_language		= 'chinese_simplified';
 
 	/**
 	 * list the choices that the users are allowed to choose
